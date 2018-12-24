@@ -1,6 +1,7 @@
 
 from facebook_tools import *
 
+
 def scrape_friends(driver, profile):
     url='https://m.facebook.com/'+profile
     driver.get(url)
